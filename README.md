@@ -9,12 +9,12 @@ Objetivos do site: Apresentar pratos principais, um pouco sobre a culinária e a
 
 Funcionalidades do site: Localização de restaurantes, informações sobre receitas, dúvidas, contato, quem somos, principais pratos
 
-Usuário Administrador: Poderá incluir 
+Usuário Administrador: Permissão para realizar alterações 
 
-Usuário Logado: Terá acesso as receitas e ao fale conosco
+Usuário Logado: Terá acesso as receitas 
 
-Usuário Visitante: Terá acesso aos principais pratos, localização dos restaurantes
+Usuário Visitante: Terá acesso aos principais pratos, localização dos restaurantes e ao fale conosco
 
-Mapa de Navegação:
+Mapa de Navegação: Dentro da pasta "Mapa de Navegação"
 
-Wireframe:
+Wireframe: Dentro da pasta "Wireframe"
