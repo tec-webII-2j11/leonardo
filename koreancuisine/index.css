@@ -45,9 +45,21 @@ blockquote
 Layout styles
 ------------------------*/
 
+.idlogin
+{
+	
+	
+	color: white;
+	background-color: orange;
+	padding: 1em;
+	width: 12em;
+	height: 15em;
+}
+
+
 .container
 {
-	max-width: 50em;
+	max-width: 100em;
 	margin: 0 auto;
 	background-color: #fff;
 }
