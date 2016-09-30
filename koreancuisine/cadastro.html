@@ -1,0 +1,88 @@
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <link rel="icon" type="image/gif" href="photos/korea.gif"  />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Korean Cuisine</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="ADD SITE DESCRIPTION">
+		<meta name="author" content="ADD AUTHOR INFORMATION">
+		<meta name="robots" content="index, follow">
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="cadastro.css" >
+    </head>
+    
+    <body>
+        <div class="container">
+			<div class="header" align="center">
+            	<img src="photos/kc.jpg" width=200px >
+			</div>
+			<div class="nav-bar" align="center">
+				<ul class="nav">
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="top5dishes.html">Top 5 Dishes</a></li>
+					<li><a href="receitas.html">Receitas</a></li>
+                   	<li><a href="restaurantes.html">Restaurantes em Sp</a></li>
+                  	<li><a href="fale.html">Fale Conosco</a></li>
+                  	<li><a href="quem.html">Quem Somos</a></li>
+				</ul>
+				</div>
+			</div>
+    			
+    			
+    			
+    			
+    			
+    			
+    			<div class="content" align="center"> 
+    			<form method="POST" enctype="multipart/form-data" action="validacao.php"> 
+			
+		
+                <input type="hidden" name="nomePessoa" value="<?php echo $nome;?>"/>
+                <input type="hidden" name="emailPessoa" value="<?php echo $email;?>"/>
+                            
+                <input type="hidden" name="sexos" value="<?php echo $sexo;?>"/>
+                <input type="hidden" name="diaPessoa" value="<?php echo $diaPessoa;?>"/> 
+                <input type="hidden" name="mesPessoa" value="<?php echo $mesPessoa;?>"/>
+                <input type="hidden" name="anoPessoa" value="<?php echo $anoPessoa;?>"/>                
+                <input type="hidden" name="estado" value="<?php echo $estado;?>"/>
+                <input type="hidden" name="cidadePessoa" value="<?php echo $cidade;?>"/> 
+                <input type="hidden" name="ARQUIVO" value="<?php echo $arquivo['name'];?>"/> 
+				<input type="hidden" name="destino" value="<?php echo $destino; ?>" />
+                
+
+                
+                <p><label for="username">Insira seu e-mail/Username: </label><input type="text" name="username" id="username" size="40"></p>
+                <p><label for="senha">Senha: </label><input type="password" name="senha" id="senha" size="40"></p>
+				 
+                
+                <p><label for="regulamento" /> <input type="checkbox" name="regulamento" id="regulamento" size="20"> Li e concordo com o <a href= "#"> regulamento</a>.</p>
+
+			
+			<div class="row">
+     
+<input type="submit" name="Enviar" value="Cadastrar" id="Enviar" class="btn btn-lg btn-secondary" />  
+</div>
+</div>
+
+       
+		</form>
+    			
+    			
+    			
+    
+    			 
+        
+                
+			
+			
+			<div class="content" align="center">
+				<div class="main">
+			<div class="footer">
+				@Developed by : Cho Wan Lim, Leonardo Koralcow, Guilherme Henrique
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

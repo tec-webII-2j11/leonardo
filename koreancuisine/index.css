@@ -48,12 +48,13 @@ Layout styles
 .idlogin
 {
 	
-	
+		
 	color: white;
 	background-color: orange;
-	padding: 1em;
+	padding-left: !important;
 	width: 12em;
 	height: 15em;
+	float: left;
 }
 
 
@@ -66,7 +67,7 @@ Layout styles
 
 .header
 {
-	alignment-adjust:central
+	alignment-adjust:central;
 	color: white;
 	background: white;
 	padding: 1em 1.25em;

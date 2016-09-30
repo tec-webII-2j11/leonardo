@@ -47,7 +47,7 @@ Layout styles
 
 .container
 {
-	max-width: 50em;
+	max-width: 100em;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -83,7 +83,7 @@ Nav
 .nav
 {
 	margin: 0;
-	padding: 0;
+	padding: 100;
 	list-style: none;
 }
 
