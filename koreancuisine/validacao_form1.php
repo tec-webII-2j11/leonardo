@@ -76,7 +76,7 @@ if (empty($cidadePessoa)) {
     $erro=TRUE;
 } else
     
-// INICIO VALIDACAO UPLOAD DO ARQUIVO    
+
     if($arquivo['error'] != 0) {
 echo 'Erro no Upload do arquivo';
 switch($arquivo['error']) {
@@ -125,10 +125,10 @@ echo "<img src='$destino' border=0>"; */
 else {
 echo '<p>Erro durante o envio</p>';
 } 
-// FIM VALIDACAO UPLOAD DO ARQUIVO  
+
     
 if ($erro==false) {
- /*   echo "CORRETO! Todos os campos foram digitados corretamente. <br/>";   */
+ echo "CORRETO! Todos os campos foram digitados corretamente. <br/>";  
     include "index.html";
 }
 

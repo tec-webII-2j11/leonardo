@@ -1,9 +1,7 @@
 <?php
 			
             $nomePessoa=$_POST['nomePessoa'];
-           
  			$emailPessoa=$_POST['emailPessoa'];
-            
 			$sexos=$_POST['sexos'];
 			$diaPessoa=$_POST['diaPessoa'];
 			$mesPessoa=$_POST['mesPessoa'];
@@ -15,9 +13,7 @@
             
 
             strip_tags($nomePessoa);
-            
             strip_tags($emailPessoa);
-            
             strip_tags($sexos);
             strip_tags($diaPessoa);
             strip_tags($mesPessoa);
@@ -49,10 +45,7 @@ if($regulamento == null) {
 
 if ($erro==false) {
     echo "CORRETO! Todos os campos foram digitados corretamente. <br/>";
-    /*echo "Username: " . $username .
-        "<br>Senha: " . $senha .
-        "<br>Confirmação Senha: " . $confirmacaoSenha .
-        "<br>Confirma com o regulamento? " . $regulamento;*/
+
 }
 
 ?>
@@ -75,8 +68,7 @@ if ($erro==false) {
             echo "Não foi possível conectar: " . mysqli_connect_error();
         }
         echo "<br> Começando o INSERT!<br>";
-    $resultado = mysql_query($conexao, "INSERT INTO usuario VALUES ('$nomePessoa', '$emailPessoa', '$sexos', '$diaPessoa', '$mesPessoa', '$anoPessoa', '$estado', '$cidadePessoa', '$username', '$senha', '$regulamento')")
-    or die ("Não foi possível acessar a tabela: " . mysql_error($conexao));
+    $resultado = mysql_query($conexao, "INSERT INTO usuario VALUES ('$nomePessoa', '$emailPessoa', '$sexos', '$diaPessoa', '$mesPessoa', '$anoPessoa', '$estado', '$cidadePessoa', '$username', '$senha', '$regulamento')") or die ("Não foi possível acessar a tabela: " . mysql_error($conexao));
     
     echo "<br>Terminando o INSERT!<br>";
     echo "<br>Coloca o INSERT no banco!<br>";
@@ -137,7 +129,6 @@ if ($erro==false) {
             ;
         }
     }
-    echo "<br>Termina de fazer o SELECT no banco!<br>";
 
     mysqli_close($conexao);
 ?>

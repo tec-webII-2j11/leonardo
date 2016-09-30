@@ -3,9 +3,7 @@
     include "conectar.php";
 
 	$nomePessoa=$_POST['nomePessoa'];
-    
  	$emailPessoa=$_POST['emailPessoa'];
-    
 	$sexos=$_POST['sexos'];
 	$diaPessoa=$_POST['diaPessoa'];
 	$mesPessoa=$_POST['mesPessoa'];
