@@ -11,7 +11,7 @@ Funcionalidades do site: Localização de restaurantes, informações sobre rece
 
 Usuário Administrador: Permissão para realizar alterações 
 
-Usuário Logado: Terá acesso as receitas 
+Usuário Logado: Terá acesso as informações do banco de dados dos cadastrados
 
 Usuário Visitante: Terá acesso aos principais pratos, localização dos restaurantes e ao fale conosco
 
